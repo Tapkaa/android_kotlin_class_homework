@@ -42,7 +42,8 @@ class Teamlead : Employee() {
 class Android_developer : Employee() {
 
     override fun haveLunch() {
-        println("Иду на обед в 13.30")
+        super.haveLunch()
+        println("кофе по-любому")
     }
     override fun goHome() {
         println("Иду домой в 19.45")
