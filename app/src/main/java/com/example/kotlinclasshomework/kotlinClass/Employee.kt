@@ -39,4 +39,12 @@ class Teamlead : Employee() {
     }
 }
 
-// TODO здесь можно создать новый класс, который будет наследоваться от класса Employee. Не забудьте переопределить методы haveLunch() и goHome()
+class Android_developer : Employee() {
+
+    override fun haveLunch() {
+        println("Иду на обед в 13.30")
+    }
+    override fun goHome() {
+        println("Иду домой в 19.45")
+    }
+}
